@@ -1,13 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using CellBig.UI.Event;
+using JHchoi.UI.Event;
 using System;
-using CellBig.Constants;
-using CellBig.Models;
+using JHchoi.Constants;
+using JHchoi.Models;
 using Android;
 
-namespace CellBig.Contents
+namespace JHchoi.Contents
 {
     [Serializable]
     public class AloneGameContent : IContent

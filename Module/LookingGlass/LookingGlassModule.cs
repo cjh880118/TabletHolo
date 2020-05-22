@@ -1,13 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using CellBig.Module;
-using CellBig.Models;
+using JHchoi.Module;
+using JHchoi.Models;
 using LookingGlass;
-using CellBig.UI.Event;
+using JHchoi.UI.Event;
 using System;
 
-namespace CellBig.Module
+namespace JHchoi.Module
 {
     public class LookingGlassModule : IModule
     {

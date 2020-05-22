@@ -2,9 +2,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using CellBig.UI.Event;
+using JHchoi.UI.Event;
 
-namespace CellBig.Contents
+namespace JHchoi.Contents
 {
     public class AndroidContent : IContent
     {

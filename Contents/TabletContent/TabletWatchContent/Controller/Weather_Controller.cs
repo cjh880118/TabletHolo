@@ -1,6 +1,6 @@
-﻿using CellBig.Constants;
-using CellBig.Contents;
-using CellBig.UI.Event;
+﻿using JHchoi.Constants;
+using JHchoi.Contents;
+using JHchoi.UI.Event;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,7 +8,7 @@ using UnityEngine;
 public class Weather_Controller : MonoBehaviour
 {
     WeatherInfo weatherInfo;
-    CellBig.Contents.LocationInfo locationInfo;
+    JHchoi.Contents.LocationInfo locationInfo;
 
     private void Location(LocationMsg msg)
     {
@@ -94,7 +94,7 @@ public class Weather_Controller : MonoBehaviour
         else if (www.isDone)
         {
             //Debug.Log(www.text);
-            locationInfo = JsonUtility.FromJson<CellBig.Contents.LocationInfo>(www.text);
+            locationInfo = JsonUtility.FromJson<JHchoi.Contents.LocationInfo>(www.text);
             try
             {
                 string split = " ";

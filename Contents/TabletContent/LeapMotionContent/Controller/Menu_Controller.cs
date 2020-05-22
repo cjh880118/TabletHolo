@@ -1,6 +1,6 @@
-﻿using CellBig.Constants;
-using CellBig.Models;
-using CellBig.UI.Event;
+﻿using JHchoi.Constants;
+using JHchoi.Models;
+using JHchoi.UI.Event;
 using DG.Tweening;
 using System;
 using System.Collections;

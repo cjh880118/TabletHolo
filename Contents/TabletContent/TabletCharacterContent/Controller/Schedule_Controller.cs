@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using CellBig.Constants;
+using JHchoi.Constants;
 
 public class Schedule_Controller : MonoBehaviour
 {

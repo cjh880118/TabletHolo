@@ -1,12 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using CellBig.UI.Event;
+using JHchoi.UI.Event;
 using Android;
 using System;
-using CellBig.Constants;
+using JHchoi.Constants;
 
-namespace CellBig.Contents
+namespace JHchoi.Contents
 {
     public class WatchContent : IContent
     {

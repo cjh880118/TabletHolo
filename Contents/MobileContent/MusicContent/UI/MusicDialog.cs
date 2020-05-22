@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using Android;
-using CellBig.Constants;
+using JHchoi.Constants;
 
-namespace CellBig.UI
+namespace JHchoi.UI
 {
     public class MusicDialog : IDialog
     {

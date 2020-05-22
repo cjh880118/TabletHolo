@@ -1,14 +1,14 @@
-﻿using CellBig.Constants;
-using CellBig.UI.Event;
+﻿using JHchoi.Constants;
+using JHchoi.UI.Event;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using CellBig.Models;
+using JHchoi.Models;
 using Midiazen;
 using System.Linq;
 
-namespace CellBig.Contents
+namespace JHchoi.Contents
 {
     public class TabletBluetoothContent : IContent
     {

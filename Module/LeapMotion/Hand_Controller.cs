@@ -1,10 +1,10 @@
-﻿using CellBig.Contents;
-using CellBig.UI.Event;
+﻿using JHchoi.Contents;
+using JHchoi.UI.Event;
 using Midiazen;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using CellBig.Models;
+using JHchoi.Models;
 
 public class Hand_Controller : MonoBehaviour
 {

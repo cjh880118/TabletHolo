@@ -1,13 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using CellBig.Models;
+using JHchoi.Models;
 using System;
-using CellBig.UI.Event;
-using CellBig.Constants;
+using JHchoi.UI.Event;
+using JHchoi.Constants;
 using Midiazen;
 
-namespace CellBig.Contents
+namespace JHchoi.Contents
 {
     public class TabletCharacterContent : IContent
     {

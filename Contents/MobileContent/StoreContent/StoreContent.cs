@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using CellBig.UI.Event;
-using CellBig.Constants;
+using JHchoi.UI.Event;
+using JHchoi.Constants;
 using System;
 
-namespace CellBig.Contents
+namespace JHchoi.Contents
 {
     public class StoreContent : IContent
     {

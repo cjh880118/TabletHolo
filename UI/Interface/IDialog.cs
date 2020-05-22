@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 using JHC;
-using CellBig.UI.Event;
+using JHchoi.UI.Event;
 using System;
 
-namespace CellBig.UI
+namespace JHchoi.UI
 {
 	public class IDialog : MonoBehaviour
 	{

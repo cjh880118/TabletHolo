@@ -1,12 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using CellBig.Module;
-using CellBig.Models;
+using JHchoi.Module;
+using JHchoi.Models;
 using Leap.Unity;
-using CellBig.Constants;
+using JHchoi.Constants;
 
-namespace CellBig.Module
+namespace JHchoi.Module
 {
     public class LeapMotionModule : IModule
     {

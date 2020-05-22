@@ -1,6 +1,6 @@
-﻿using CellBig.Constants;
-using CellBig.Contents;
-using CellBig.UI.Event;
+﻿using JHchoi.Constants;
+using JHchoi.Contents;
+using JHchoi.UI.Event;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ using Midiazen;
 public class WeatherRequest_Controller : MonoBehaviour
 {
     WeatherInfo weatherInfo;
-    CellBig.Contents.LocationInfo locationInfo;
+    JHchoi.Contents.LocationInfo locationInfo;
 
     public void InitWeatherController()
     {
@@ -112,7 +112,7 @@ public class WeatherRequest_Controller : MonoBehaviour
         else if (www.isDone)
         {
             //Debug.Log(www.text);
-            locationInfo = JsonUtility.FromJson<CellBig.Contents.LocationInfo>(www.text);
+            locationInfo = JsonUtility.FromJson<JHchoi.Contents.LocationInfo>(www.text);
             try
             {
                 string split = " ";

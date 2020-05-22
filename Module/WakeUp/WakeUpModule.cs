@@ -1,14 +1,14 @@
-﻿using CellBig.UI.Event;
+﻿using JHchoi.UI.Event;
 using Midiazen;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Runtime.InteropServices;
-using CellBig.Models;
+using JHchoi.Models;
 using UnityEngine;
 
-namespace CellBig.Module
+namespace JHchoi.Module
 {
     public class WakeUpModule : IModule
     {
